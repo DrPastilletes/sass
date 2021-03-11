@@ -1,0 +1,33 @@
+.parent {
+  width: 100%;
+  height: 400px;
+  background-color: lightblue;
+  text-align: center;
+  position: relative;
+}
+.parent .child-1 {
+  background-color: aqua;
+  position: relative;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.parent .child-2 {
+  background-color: rosybrown;
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
+}
+
+.parent .child-1, .parent .child-2 {
+  border: 1px dashed blue;
+}
+
+.child {
+  border: #999 solid 1px;
+  width: 30%;
+  height: 30%;
+  background-color: lightgreen;
+}
+
+/*# sourceMappingURL=style.css.map */
